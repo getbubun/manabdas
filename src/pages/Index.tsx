@@ -1,4 +1,4 @@
-import { Mail, Globe, MessageCircle, Phone, Linkedin, MapPin, Calendar, Briefcase, GraduationCap, FolderOpen, Award } from "lucide-react";
+import { Mail, Globe, MessageCircle, Phone, Linkedin, MapPin, Calendar, Briefcase, GraduationCap, FolderOpen, Award, Github } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import BottomNavigation from "@/components/BottomNavigation";
@@ -146,6 +146,12 @@ const Index = () => {
       value: "manabdas.vercel.app",
       icon: Globe,
       href: "https://manabdas.vercel.app"
+    },
+    {
+      label: "GitHub",
+      value: "getbubun",
+      icon: Github,
+      href: "https://github.com/getbubun"
     },
     {
       label: "LinkedIn",
