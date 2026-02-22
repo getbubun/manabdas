@@ -142,6 +142,12 @@ const Index = () => {
       href: "tel:+918018214708"
     },
     {
+      label: "GitHub",
+      value: "getbubun",
+      icon: Github,
+      href: "https://github.com/getbubun"
+    },
+    {
       label: "Website",
       value: "manabdas.vercel.app",
       icon: Globe,
